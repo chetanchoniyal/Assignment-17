@@ -14,7 +14,7 @@ button.pack()
 '''Q2'''
 #method to print text
 def write_some():
-    print("Hi this is Hemant")
+    print("hi, you are talking to a brown kid")
 #Creating Button
 button1 = Button(m,text='Click to See Message',width=25,command = write_some)
 button1.pack()
@@ -24,7 +24,7 @@ button1.pack()
 r = Tk()
 #method to change label
 def change_label():
-    label2["text"] = "My name is Hemant."
+    label2["text"] = "My name is Chetan."
 #Creating frame
 frame = Frame(r)
 frame.pack()
